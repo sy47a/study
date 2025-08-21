@@ -31,4 +31,13 @@ function solution(schedules, timelogs, startday) {
   return answer;
 }
 
+const schedules = [930, 1030];
+const timelogs = [
+  [930, 940, 935, 940, 920, 930, 940],
+  [1035, 1040, 1030, 1035, 1020, 1045, 1030]
+];
+const startday = 1;
+
+console.log(solution(schedules, timelogs, startday));
+
 //문제 : https://school.programmers.co.kr/learn/courses/30/lessons/388351
